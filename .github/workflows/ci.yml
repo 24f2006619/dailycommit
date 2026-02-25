@@ -1,0 +1,12 @@
+name: CI
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f2006619@ds.study.iitm.ac.in - CI Visibility Test
+        run: echo "Workflow ran successfully at $(date -u)"
